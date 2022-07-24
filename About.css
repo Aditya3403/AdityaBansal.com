@@ -1,0 +1,294 @@
+.aboutPage{
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.aboutPage-heading-image{
+    height: 50vh;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.aboutPage-heading-para{
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutPage-heading{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.aboutPage-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* height: 50vh; */
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 5vh;
+}
+.aboutPage-image{
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutPage-image img{
+    height: 40vh;
+    width: 30vw;
+    /* margin-top: 10vh; */
+}
+.aboutPage-skillSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.aboutPage-skillSection-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    width: 70%;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.aboutPage-skillSection-skillbar{
+    margin-top: 5vh;
+    border-radius: 0.3vw;
+    height: 75vh;
+    width: 60%;
+    padding: 0 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    background-color: #EEEEEE;
+    transition: 400ms;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0,0.2);
+}
+.aboutPage-skillSection-skillbar:hover{
+    box-shadow: 0px 0px 30px rgb(0, 0, 0,0.5);
+}
+.aboutPage-skillSection-skillbar h4{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.aboutPage-skillSection-skillbar .container{
+    position: relative;
+    width: 100%;
+    height: 3vh;
+    border-radius: 2vw;
+    background-color: darkgray;
+}
+.tooltip-html{
+    border-radius: 0.3vw;
+    top: -7vh;
+    right: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 4vw;
+    height: 5vh;
+    color: white;
+    background-color: #0C71C3;
+    z-index: 1;
+    opacity: 0;
+    animation: progress 0.5s ease-in-out forwards;
+   
+}
+.tooltip-html::after{
+    content: "";
+    bottom: 0vh;
+    right: 1.3vw;
+    position: absolute;
+    width: 2vw;
+    height: 2vh;
+    background-color: #0C71C3;
+    transform: rotate(45deg);
+    z-index: -1;
+    opacity: 0;
+    animation: progress 0.5s ease-in-out forwards;
+}
+.tooltip-css{
+    border-radius: 0.3vw;
+    top: -7vh;
+    right: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 4vw;
+    height: 5vh;
+    color: white;
+    background-color: #0C71C3;
+    z-index: 1;
+    opacity: 0;
+    animation: progress 0.5s ease-in-out forwards;
+    
+}
+.tooltip-css::after{
+    content: "";
+    bottom: 0vh;
+    right: 1.3vw;
+    position: absolute;
+    width: 2vw;
+    height: 2vh;
+    background-color: #0C71C3;
+    transform: rotate(45deg);
+    z-index: -1;
+    opacity: 0;
+    animation: progress 0.5s ease-in-out forwards;
+}
+.tooltip-js{
+    border-radius: 0.3vw;
+    top: -7vh;
+    right: 10.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 4vw;
+    height: 5vh;
+    color: white;
+    background-color: #0C71C3;
+    z-index: 1;
+    opacity: 0;
+    animation: progress 0.5s ease-in-out forwards;
+}
+.tooltip-js::after{
+    content: "";
+    bottom: 0vh;
+    right: 1.3vw;
+    position: absolute;
+    width: 2vw;
+    height: 2vh;
+    background-color: #0C71C3;
+    transform: rotate(45deg);
+    z-index: -1;
+    opacity: 0;
+    animation: progress 0.5s ease-in-out forwards;
+}
+.tooltip-react{
+    border-radius: 0.3vw;
+    top: -7vh;
+    right: 10.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 4vw;
+    height: 5vh;
+    color: white;
+    background-color: #0C71C3;
+    z-index: 1;
+    opacity: 0;
+    animation: progress 0.5s ease-in-out forwards;
+}
+.tooltip-react::after{
+    content: "";
+    bottom: 0vh;
+    right: 1.3vw;
+    position: absolute;
+    width: 2vw;
+    height: 2vh;
+    background-color: #0C71C3;
+    transform: rotate(45deg);
+    z-index: -1;
+    opacity: 0;
+    animation: progress 0.5s ease-in-out forwards;
+}
+.tooltip-figma{
+    color: white;
+    border-radius: 0.3vw;
+    top: -7vh;
+    right: 4.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 4vw;
+    height: 5vh;
+    background-color: #0C71C3;
+    z-index: 1;
+    opacity: 0;
+    animation: progress 0.5s ease-in-out forwards;
+}
+.tooltip-figma::after{
+    content: "";
+    bottom: 0vh;
+    right: 1.3vw;
+    position: absolute;
+    width: 2vw;
+    height: 2vh;
+    background-color: #0C71C3;
+    transform: rotate(45deg);
+    z-index: -1;
+    opacity: 0;
+    animation: progress 0.5s ease-in-out forwards;
+}
+@keyframes progress{
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.html{
+    width: 95%;
+    height: 3vh;
+    border-radius: 2vw;
+    background-color: #0C71C3;
+    opacity: 0;
+    animation: progress 0.5s ease-in-out forwards;
+}
+.css{
+    width: 95%;
+    height: 3vh;
+    border-radius: 2vw;
+    background-color: #0C71C3;
+    opacity: 0;
+    animation: progress 0.5s ease-in-out forwards;
+}
+.js{
+    width: 80%;
+    height: 3vh;
+    border-radius: 2vw;
+    background-color: #0C71C3;
+    opacity: 0;
+    animation: progress 0.5s ease-in-out forwards;
+}
+.react{
+    width: 80%;
+    height: 3vh;
+    border-radius: 2vw;
+    background-color: #0C71C3;
+    opacity: 0;
+    animation: progress 0.5s ease-in-out forwards;
+}
+.figma{
+    width: 90%;
+    height: 3vh;
+    border-radius: 2vw;
+    background-color: #0C71C3;
+    opacity: 0;
+    animation: progress 0.5s ease-in-out forwards;
+}

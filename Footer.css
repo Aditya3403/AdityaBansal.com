@@ -1,0 +1,76 @@
+footer{
+    background-color: rgb(36, 36, 36);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 25vh;
+    width: 45vw;
+    background-color:  #EEEEEE;
+    margin-top: -10vh;
+    margin-left: 28vw;
+    border-radius: 1vw;
+    box-shadow: -5px -5px 20px rgba(43, 43, 43, 0.315);
+}
+.contact-section p{
+    font-family: 'Anton', sans-serif;
+    font-size: 2.2rem;
+   
+}
+.contact-section button{
+    height: 8vh;
+    width: 9vw;
+    background-color:#0C71C3 ;
+    border: none;
+    border-radius: 0.3vw;
+}
+.contact-section button a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.logo-socialIcons{
+    
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.footer-logo h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20vh;
+    width: 25vw;
+}
+.footer-socials .fab{
+    color: #03DAC6;
+    width: 3vw;
+    height: 4vh;
+    cursor: pointer;
+}
+.footerBottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 7vh;
+}

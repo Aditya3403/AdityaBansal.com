@@ -1,0 +1,61 @@
+.socialSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    background-color: rgb(255, 255, 255);
+    height: 60vh;
+    width: 70vw;
+    z-index: 10000;
+    margin-top: -17vh;
+    margin-left: 13vw;
+    box-shadow: 0px 1px 15px rgb(0, 0, 0,0.5);
+}
+.socialSection h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 2.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(46, 46, 46);
+}
+.socialSection-icons{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(1,1fr);
+    column-gap: 2vw;
+}
+.fab:hover{
+    color: rgba(129, 129, 129, 0.849);
+    
+}
+.fa-linkedin-in{
+    color: #0C71C3;
+   
+}
+.fa-twitter{
+    color: rgb(144, 210, 252);
+}
+.fa-github{
+    color: black;
+}
+.fa-facebook-square{
+    color:#0C71C3;
+}
+.fa-instagram{
+   background: radial-gradient(circle at 33% 100%, #fed373 14%, #f15245 40%, #d92e7f 62%, #872ea0 100%, #515ecf); 
+   -webkit-background-clip :text;
+   -webkit-text-fill-color : transparent;
+   border-radius: 4px;
+}
+.fa-instagram:hover{
+    background: radial-gradient(circle at 33% 100%, #ebe8e8 14%, #a0a0a0 40%, #6d6d6d 62%, #535353 100%, #353535);
+    -webkit-background-clip :text;
+   -webkit-text-fill-color : transparent;
+}
+.fa-dribbble{
+    color: #ea4c89;
+}

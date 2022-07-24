@@ -1,0 +1,19 @@
+.workPage{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.workPage-heading{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.workPage-cards{
+    width: 70%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,3fr);
+    row-gap: 3vh;
+}

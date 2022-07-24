@@ -1,0 +1,53 @@
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 120vh;
+    
+}
+.work h1{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 4vh;
+    font-family: 'Roboto', sans-serif;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.workBtn{
+    width: 10vw;
+    height: 8vh;
+    background-color: transparent;
+    border: 2px solid #0C71C3;
+    border-radius: 5px;
+    color: #0C71C3;
+    margin-top: 5vh;
+    margin-left: 45vw;
+    font-size: 0.9rem;
+    transition: 500ms;
+}
+.workBtn:hover{
+    background-color: black;
+    color: #0C71C3;
+    width: 10vw;
+    align-items: center;
+    text-align: center;
+    border: none;
+    padding-right: 1.5vw;
+    padding-left: 1vw;
+    border-radius: 0px;
+    transition: 500ms;
+}
+.workBtn a{
+    text-decoration: none;
+    color: #0C71C3;
+}
+.workBtn:hover a{
+    color: white;
+}

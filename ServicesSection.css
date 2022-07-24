@@ -1,0 +1,29 @@
+.servicesSection-heading-para{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#0C71C3 ;
+}
+.servicesSection-heading-para h1{
+    font-size: 2rem;
+    margin-top: 8vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.servicesSection-heading-para p{
+    font-size: 1.2rem;
+    margin-top: 4vh;
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+.servicesSection-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
